@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Setter
 public class CategoryController {
 
-    @Value("${testProp}")
+    @Value("${test}")
     private String testProp;
 
     public String getTestProp(){
